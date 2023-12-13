@@ -442,7 +442,7 @@ $.getJSON('assets/jalan.geojson', function (kode) {
                 return { color: color };
             },
             onEachFeature: function (feature, layer) {
-                layer.bindPopup('Wilayah Depok');
+                layer.bindPopup('Jalan Beji');
             }
         }).addTo(jalan);
     });
@@ -477,7 +477,7 @@ $.getJSON('assets/peta_depok_outline.geojson', function (kode) {
                 return { color: color, dashArray: '9, 12'};
             },
             onEachFeature: function (feature, layer) {
-                layer.bindPopup('Popup Content');
+                layer.bindPopup('Wilayah Depok');
             }
         }).addTo(batas_wilayah);
 });
