@@ -1210,4 +1210,23 @@ div.w-100.bg-white.text-center.p-4 a.btn.btn-primary:hover,
   outline: none !important;
   box-shadow: none !important;
 }
-/*# sourceMappingURL=style.css.map */
+#button-lokasi button,
+#button-lokasi button{
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+#button-lokasi button:active,
+#button-lokasi button:focus {
+  background-color: #007fa4 !important;
+}
+#button-lokasi button,
+#button-lokasi button{
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+#button-lokasi button:active,
+#button-lokasi button:focus {
+  background-color: #007fa4 !important;
+}
