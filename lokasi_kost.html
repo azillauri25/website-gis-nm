@@ -129,18 +129,11 @@
     </header>
     <!-- end header section -->
   </div>
-  <div class="container text-center my-5 py-5" id="header_lokasi">
+<div class="container text-center my-5 py-5" id="header_lokasi">
     <h1 class="text-black mt-4 mb-4">Cari Lokasi Kost Kamu</h1>
     <p style="margin-top: -10px; color: black;">
         Kamu bisa cek fasilitas kost yang kamu mau loh!
     </p>
-    <button type="button mb-3" class="btn btn-primary" onclick="showBatasWilayah()">Batas Wilayah</button>
-    <button type="button" class="btn btn-primary" onclick="showPetaDepok()">Peta Depok</button>
-    <button type="button" class="btn btn-primary" onclick="showBeji()">Peta Beji</button>
-    <div class="btn-group">
-      <button type="button" class="btn btn-primary dropdown-toggle" id="btn_kecamatan" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Daftar Kecamatan
-      </button>
     <div id="button-lokasi">
       <button type="button mb-3" class="btn btn-primary" onclick="showBatasWilayah()">Batas Wilayah</button>
       <button type="button" class="btn btn-primary" onclick="showPetaDepok()">Peta Depok</button>
@@ -176,6 +169,20 @@
           <button class="dropdown-item" type="button" onclick="showTanahBaruKel()">Tanah Baru</button>
       </div>
   </div>
+  </div>
+</div>
+
+<div class="opsi_marker" id = "opsi-marker-id" style="margin-left:70px; padding-bottom:0px; margin-bottom:-30px">
+  <div class="btn-group btn-group-toggle" data-toggle="buttons">
+    <label class="btn btn-marker" id="hide-marker-label" onclick="showHideMarker()">
+      <input type="radio" name="options" id="hide-marker" autocomplete="off" > Hide marker
+    </label>
+    <label class="btn btn-marker" id="show-marker-label" onclick="showShowMarker()">
+      <input type="radio" name="options" id="show-marker" autocomplete="off"> Show marker
+    </label>
+    <label class="btn btn-marker" id="hide-map-layer" style="color: rgb(68, 68, 68) !important;" onclick="hideDisplayedPolygon()">
+      <input type="radio" name="options" id="hide-map" autocomplete="off"> Hide polygon
+    </label>
   </div>
 </div>
 
