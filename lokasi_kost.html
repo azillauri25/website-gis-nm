@@ -438,11 +438,11 @@ mapDetail.addLayer(data_kost);
 $.getJSON('assets/jalan.geojson', function (kode) {
         L.geoJson(kode, {
             style: function (feature) {
-                var color = "#a30508"; // Warna merah
+                var color = "#a30508";
                 return { color: color };
             },
             onEachFeature: function (feature, layer) {
-                layer.bindPopup('Popup Content'); // Gantilah 'Popup Content' sesuai kebutuhan Anda
+                layer.bindPopup('Wilayah Depok');
             }
         }).addTo(jalan);
     });
