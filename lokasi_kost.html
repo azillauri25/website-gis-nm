@@ -141,33 +141,42 @@
       <button type="button" class="btn btn-primary dropdown-toggle" id="btn_kecamatan" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Daftar Kecamatan
       </button>
+    <div id="button-lokasi">
+      <button type="button mb-3" class="btn btn-primary" onclick="showBatasWilayah()">Batas Wilayah</button>
+      <button type="button" class="btn btn-primary" onclick="showPetaDepok()">Peta Depok</button>
+      <button type="button" class="btn btn-primary" onclick="showBeji()">Peta Beji</button>
+      <div class="btn-group">
+        <button type="button" class="btn btn-primary dropdown-toggle" id="btn_kecamatan" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Daftar Kecamatan
+        </button>
+        <div class="dropdown-menu">
+            <button class="dropdown-item" type="button" onclick="showBeji()">Beji</button>
+            <button class="dropdown-item" type="button" onclick="showBojongsari()">Bojongsari</button>
+            <button class="dropdown-item" type="button" onclick="showCilodong()">Cilodong</button>
+            <button class="dropdown-item" type="button" onclick="showCimanggis()">Cimanggis</button>
+            <button class="dropdown-item" type="button" onclick="showCinere()">Cinere</button>
+            <button class="dropdown-item" type="button" onclick="showCipayung()">Cipayung</button>
+            <button class="dropdown-item" type="button" onclick="showLimo()">Limo</button>
+            <button class="dropdown-item" type="button" onclick="showPancoranMas()">Pancoran Mas</button>
+            <button class="dropdown-item" type="button" onclick="showSawangan()">Sawangan</button>
+            <button class="dropdown-item" type="button" onclick="showSukmajaya()">Sukmajaya</button>
+            <button class="dropdown-item" type="button" onclick="showTapos()">Tapos</button>
+        </div>
+    </div>
+    <div class="btn-group">
+      <button type="button" class="btn btn-primary dropdown-toggle" id="btn_kelurahan" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Daftar Kecamatan
+      </button>
       <div class="dropdown-menu">
-          <button class="dropdown-item" type="button" onclick="showBeji()">Beji</button>
-          <button class="dropdown-item" type="button" onclick="showBojongsari()">Bojongsari</button>
-          <button class="dropdown-item" type="button" onclick="showCilodong()">Cilodong</button>
-          <button class="dropdown-item" type="button" onclick="showCimanggis()">Cimanggis</button>
-          <button class="dropdown-item" type="button" onclick="showCinere()">Cinere</button>
-          <button class="dropdown-item" type="button" onclick="showCipayung()">Cipayung</button>
-          <button class="dropdown-item" type="button" onclick="showLimo()">Limo</button>
-          <button class="dropdown-item" type="button" onclick="showPancoranMas()">Pancoran Mas</button>
-          <button class="dropdown-item" type="button" onclick="showSawangan()">Sawangan</button>
-          <button class="dropdown-item" type="button" onclick="showSukmajaya()">Sukmajaya</button>
-          <button class="dropdown-item" type="button" onclick="showTapos()">Tapos</button>
+          <button class="dropdown-item" type="button" onclick="showBejiKel()">Beji</button>
+          <button class="dropdown-item" type="button" onclick="showBejiTimurKel()">Beji Timur</button>
+          <button class="dropdown-item" type="button" onclick="showPondokCinaKel()">Pondok Cina</button>
+          <button class="dropdown-item" type="button" onclick="showKukusanKel()">Kukusan</button>
+          <button class="dropdown-item" type="button" onclick="showKemiriMukaKel()">Kemiri Muka</button>
+          <button class="dropdown-item" type="button" onclick="showTanahBaruKel()">Tanah Baru</button>
       </div>
   </div>
-  <div class="btn-group">
-    <button type="button" class="btn btn-primary dropdown-toggle" id="btn_kelurahan" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        Daftar Kecamatan
-    </button>
-    <div class="dropdown-menu">
-        <button class="dropdown-item" type="button" onclick="showBejiKel()">Beji</button>
-        <button class="dropdown-item" type="button" onclick="showBejiTimurKel()">Beji Timur</button>
-        <button class="dropdown-item" type="button" onclick="showPondokCinaKel()">Pondok Cina</button>
-        <button class="dropdown-item" type="button" onclick="showKukusanKel()">Kukusan</button>
-        <button class="dropdown-item" type="button" onclick="showKemiriMukaKel()">Kemiri Muka</button>
-        <button class="dropdown-item" type="button" onclick="showTanahBaruKel()">Tanah Baru</button>
-    </div>
-</div>
+  </div>
 </div>
 
 <div class="opsi_marker" id = "opsi-marker-id" style="margin-left:70px; padding-bottom:0px; margin-bottom:-30px">
